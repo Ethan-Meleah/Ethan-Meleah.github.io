@@ -7,9 +7,5 @@ body h1 {
 }
 
 .intro {
-    font-size: 30px;
-}
-
-#intro-blurb {
-    font-weight: bold;
+    font-size: 24px;
 }
