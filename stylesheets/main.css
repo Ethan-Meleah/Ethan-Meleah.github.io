@@ -5,3 +5,11 @@ body {
 body h1 {
     font-family: 'Courier New', Courier, monospace;
 }
+
+.intro {
+    font-size: 30px;
+}
+
+#intro-blurb {
+    font-weight: bold;
+}
