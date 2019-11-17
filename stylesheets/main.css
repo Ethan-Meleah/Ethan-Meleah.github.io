@@ -1,13 +1,82 @@
+/* FULL PAGE CSS */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: limegreen;
-    color: hotpink;
+    background-image: url("../media/images/watermelon-pattern.jpg");
+    color: black;
 }
 
 body h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.intro {
-    font-size: 24px;
+/* CONTAINER CSS */
+
+.container  {
+    height: 800px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    
 }
+
+/* HEADER CSS */
+
+header {
+    background-color:#ff545e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+}
+
+/* NAVIGATION CSS */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6ec2b1;
+  }
+  
+nav ul  li {
+    float: left;
+  }
+  
+nav ul  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+nav ul  li a:hover {
+    background-color: #589ea5;
+  }
+
+  /* MAIN CONTAINER CSS */
+
+  #introLeft {
+      height: 600px;
+      width: 50%;
+      background-color: #95e3bb;
+      float: left;
+  }
+
+  #introRight {
+      height: 600px;
+      width: 50%;
+      background-color:   #ff7b7b;
+      float: left;
+  }
+
