@@ -1,0 +1,106 @@
+/* Full Page CSS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../media/images/watermelon-pattern.jpg");
+    color: black;
+}
+
+#container  {
+    height: 1200px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+/* HEADER CSS */
+
+header {
+    background-color:#ff545e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    color: #fff;
+}
+
+header h2 {
+    text-align: center;
+}
+
+/* NAVIGATION CSS */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6ec2b1;
+  }
+  
+nav ul  li {
+    float: left;
+  }
+  
+nav ul  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav ul  li a:hover {
+    background-color: #589ea5;
+  }
+
+/* QUESTION SEGMENTS */
+
+.question-segment {
+    padding: 10px 50px;
+}
+
+.question-segment h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* QUESTION COLORS */
+
+#first-question {
+    background-color: #89bbc0;
+    color: #f3f3f3;
+}
+
+#second-question {
+    background-color: #79b2b7;
+    color: #f3f3f3;
+}
+
+#third-question {
+    background-color: #68a8ae;
+    color: #f3f3f3;
+}
+
+#forth-question {
+    background-color: #589ea5;
+    color: #f3f3f3;
+}
+
+#fifth-question {
+    background-color: #4f8e94;
+    color: #f3f3f3;
+}
+
+#sixth-question {
+    background-color: #467e84;
+    color: #f3f3f3;
+}
+
+#seventh-question {
+    background-color: #3d6e73;
+    color: #f3f3f3;
+}

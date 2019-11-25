@@ -1,4 +1,4 @@
-/* FULL PAGE CSS */
+/* Full Page CSS */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -6,18 +6,12 @@ body {
     color: black;
 }
 
-body h3 {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-
-/* CONTAINER CSS */
-
-.container  {
-    height: 800px;
+#container  {
+    height: 550px;
     width: 900px;
     margin: 0 auto;
     background-color: #f3f3f3;
+    text-align: center;
     
 }
 
@@ -32,6 +26,7 @@ header {
 
 header h1 {
     text-align: center;
+    color: #fff;
 }
 
 header h2 {
@@ -59,21 +54,7 @@ nav ul  li a {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  /* Change the link color to #111 (black) on hover */
-nav ul  li a:hover {
+
+  nav ul  li a:hover {
     background-color: #589ea5;
   }
-
-
-/* General  Css */
-p {
-    text-align: center;
-}
-
-img {
-    display: block;
-    width: 250px;
-    margin: 0 auto;
-}
-

@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> ID's and Classes: Best Practices </title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="../stylesheets/tech2.css" />
+  </head>
+
+  <body>
+  
+    <div id="container">
+
+    <header>
+      <h1> ID vs Classes </h1>
+      <h2> The Best Practices </h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="sprint-1-technical.html">Stories</a></li>
+            <li><a href="sprint-2-plan.html">Learning Plan</a></li>
+            <li><a href="sprint-2-technical.html">Best Practices</a></li>
+            <li><a href="sprint-1-identidy.html">About Me</a></li>
+        </ul>
+      </nav>
+
+    <div id="main-content">
+      <p>
+        To begin talking about what the best HTML and CSS practices in regards to Classes and ID, we should first clarify what they are, what they do, and why we use them. Classes and ID are relatively simple concepts.
+      </p>
+      <p>
+        Any website you’ve ever seen is made with two core files. HTML and CSS. HTML is the file that determines what information is displayed, and how it is structured. CSS is how that information is visually displayed, changing the position, color, fonts etc. of the information.
+      </p>
+      <p>
+        HTML is ‘tag based’. For people who aren’t super technically knowledgeable, this means that content is separated into sections by something known as a ‘tag’. 
+      </p>
+
+      <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="Thrice_Berg" data-slug-hash="VwwOMaG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em; padding-left: 20px; padding-right: 20px;" data-pen-title="VwwOMaG">
+        <span>See the Pen <a href="https://codepen.io/Thrice_Berg/pen/VwwOMaG">
+        VwwOMaG</a> by Ethan Meleah (<a href="https://codepen.io/Thrice_Berg">@Thrice_Berg</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      
+      <p>
+        Above is an example of a paragraph tag, or ‘p’ tag. Everything within the opening (&lt;p>) and closing (&lt;/p>) tags is considered to be a paragraph. This not only structures the information on the page, but it allows CSS to ‘target’ that specific piece of information, being able to change various attributes about it.
+      </p>
+
+      <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="Thrice_Berg" data-slug-hash="gOOJGwJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="gOOJGwJ">
+        <span>See the Pen <a href="https://codepen.io/Thrice_Berg/pen/gOOJGwJ">
+        gOOJGwJ</a> by Ethan Meleah (<a href="https://codepen.io/Thrice_Berg">@Thrice_Berg</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+
+      <p>
+        The above CSS would change all content within paragraph tags, mentioned above. The above css would change all of the font on this page, and make it massive, as a quick and easy example.</p>
+      
+      <p>
+        But what if you want to only change one paragraph? Or only two? This is where classes and id’s come in. 
+      </p>
+
+      <p>An <span class="bold">ID</span> is a unique property. Unique in this case means that there can only be a single element that has this ID. Think of it like a person's driver's license. Every driver’s license can only correspond to a singular person. CSS can use an ID to make changes to a single element only.
+      </p>
+
+      <p>If the CSS calls the element through it’s ID, the changes will only affect that element. Example below.</p>
+      
+      <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="Thrice_Berg" data-slug-hash="XWWwegz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="XWWwegz">
+        <span>See the Pen <a href="https://codepen.io/Thrice_Berg/pen/XWWwegz">
+        XWWwegz</a> by Ethan Meleah (<a href="https://codepen.io/Thrice_Berg">@Thrice_Berg</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      
+      <p> A Class is not a unique property. But it is used in a similar way to and ID. The only relevant difference between class and id is that class can be used for multiple different elements.
+      </p>
+    
+      <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="Thrice_Berg" data-slug-hash="mddYBMY" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="mddYBMY">
+        <span>See the Pen <a href="https://codepen.io/Thrice_Berg/pen/mddYBMY">
+        mddYBMY</a> by Ethan Meleah (<a href="https://codepen.io/Thrice_Berg">@Thrice_Berg</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+
+      <p> The above snippet makes the green-text class green.
+      </p>
+
+      <h1 class='content-header'>So when do we use them?</h1>
+      
+      <p>When you are choosing between using an ID or a Class, the absolute easiest way to choose which one to use is simple. Will you need to style another element in the same way as this one? If the answer isn’t a resounding no, you use a class, to be safe. 
+        </p>
+
+      <h1 class='content-header'>Best Practices</h1>
+      
+      <p> Now that we have the basics of information about CSS ID’s and Classes, we can talk about best practices for them. If you are unfamiliar with that term, we are going to talk about the best way that we can use them, for the most efficiency and clarity.
+        </p>
+
+        <ul class="practice-list">
+          <li><span class='bold'>Don't use what you don't need.</span> If you want to style every link on the page in the same way, don't use a link class, simply directly target the link element.</li>
+          <li><span class='bold'>Use functional names.</span> Use names that describe the function of the element. For example ‘navigation’ is better than ‘menu’, because it simply and cleanly describes what the element does.</li>
+          <li><span class='bold'>Use names that are as short as possible, but as long as needed.</span> Basically what it says. You want to make names just long enough to concisely convey what the function of element is.</li>
+        </ul>
+
+    </div>
+  </div>
+  </body>
+  <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+</html>
