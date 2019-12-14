@@ -1,0 +1,141 @@
+/* Full Page CSS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../media/images/watermelon-pattern.jpg");
+    color: black;
+}
+
+#container  {
+    height: 1350px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    text-align: center;
+
+}
+
+/* HEADER CSS */
+
+header {
+    background-color:#ff545e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    color: #fff;
+}
+
+header h2 {
+    text-align: center;
+}
+
+/* NAVIGATION CSS */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6ec2b1;
+  }
+
+nav ul  li {
+    float: left;
+  }
+
+nav ul  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav ul  li a:hover {
+    background-color: #589ea5;
+  }
+
+/* Other CSS */
+
+.italics {
+  font-style: italic;
+}
+
+h2 {
+  font-family: "courier new", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.neuroplasticity {
+  font-family: 'Raleway', sans-serif;
+}
+
+.neuroplasticity h2 {
+  font-family: 'Lilita One', cursive;
+}
+
+.neuroplasticity h3 {
+  font-family: 'Libre Baskerville', cursive;
+}
+
+
+.growth-mindset {
+  font-family: 'Raleway', sans-serif;
+}
+
+.growth-mindset h2 {
+  font-family: 'Lilita One', cursive;
+}
+
+.growth-mindset h3 {
+  font-family: 'Libre Baskerville', cursive;
+}
+
+.resource-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.resource-button a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.neuroplasticity-button {
+  background-color: white;
+  color: black;
+  border: 2px solid #6ec2b1;
+}
+
+.neuroplasticity-button:hover {
+  background-color: #6ec2b1;
+  color: white;
+}
+
+.growth-button {
+  background-color: white;
+  color: black;
+  border: 2px solid #ff545e;
+}
+
+.growth-button:hover {
+  background-color: #ff545e;
+  color: white;
+}

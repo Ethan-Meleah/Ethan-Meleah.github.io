@@ -1,0 +1,101 @@
+/* Full Page CSS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../media/images/watermelon-pattern.jpg");
+    color: black;
+}
+
+#container  {
+    height: 1700px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    text-align: center;
+
+}
+
+/* HEADER CSS */
+
+header {
+    background-color:#ff545e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    color: #fff;
+}
+
+header h2 {
+    text-align: center;
+}
+
+/* NAVIGATION CSS */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6ec2b1;
+  }
+
+nav ul  li {
+    float: left;
+  }
+
+nav ul  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav ul  li a:hover {
+    background-color: #589ea5;
+  }
+
+/* Other CSS */
+
+.italics {
+  font-style: italic;
+}
+
+h2 {
+  font-family: "courier new", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.solving-reflections {
+  font-family: 'Raleway', sans-serif;
+}
+
+.solving-reflections h2 {
+  font-family: 'Lilita One', cursive;
+}
+
+.solving-reflections h3 {
+  font-family: 'Libre Baskerville', cursive;
+}
+
+
+.solving-techniques {
+  font-family: 'Raleway', sans-serif;
+}
+
+.solving-techniques h2 {
+  font-family: 'Lilita One', cursive;
+}
+
+.solving-techniques h3 {
+  font-family: 'Libre Baskerville', cursive;
+}
